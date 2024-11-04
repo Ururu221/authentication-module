@@ -12,7 +12,6 @@ func main() {
 	db := config.InitDB()
 	models.MigrateDB(db)
 
-	// Используйте middleware для передачи базы данных
 	e.Use(func(next echo.HandlerFunc) echo.HandlerFunc {
 		return func(c echo.Context) error {
 			c.Set("db", db)
