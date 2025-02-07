@@ -20,5 +20,5 @@ func main() {
 	})
 
 	routes.InitRoutes(e)
-	e.Logger.Fatal(e.Start(":1488"))
+	e.Logger.Fatal(e.Start(":5050"))
 }
