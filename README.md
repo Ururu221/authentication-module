@@ -59,8 +59,7 @@ This project utilizes the **Echo** framework for HTTP handling, **PostgreSQL** f
 - **GET /user** - Retrieve user information (requires authentication)
 - **GET /protected** - for testing JWT token (requires authentication)
 
-## License
-This project is open-source and available under the **MIT License**.
+
 
 ---
 
